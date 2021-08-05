@@ -28,6 +28,16 @@ h2{
     margin-right:10px;
 }
 .aside{
-    border:2px solid black;
+    /* border:2px solid black; */
     margin-top:50px;
+    padding:40px;
+}
+button{
+    margin:20px;
+}
+.buttons{
+   padding:10px 15px 10px 15px;
+   border:2px solid black;
+   width:30%;
+   border-radius:10%;
 }
