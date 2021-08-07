@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/8cc2e4ab6f.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
     </head>
     <body>
         <nav>
@@ -23,14 +24,15 @@
         <div class="container">
             <div class="row">
             <div class="col-md-8 my-auto">
-                <canvas class="frame">
+                <canvas id="frame">
                 </canvas>
             </div>
             <div class="col-md-4 aside">
-              <button class="buttons" style="background-color: rgb(219, 84, 111);">
+                <section id="toolbar">
+              <button id="upload" class="buttons" style="background-color: rgb(219, 84, 111);">
                   Upload
               </button>
-              <button class="buttons" style="background-color: rgb(60, 170, 88);">
+              <button id="save" class="buttons" style="background-color: rgb(60, 170, 88);">
                   Save
               </button>
               <button class="buttons">
@@ -51,6 +53,7 @@
              <button class="buttons">
                 Resize Image
               </button>
+            </section>
             </div>
         </div>
         </div>
