@@ -139,7 +139,7 @@ onload = function(){
                 let row=[];
                 for(let j=0;j<ncols;j++)
                 {
-                    row.push(image[Math.floor(i*hration)][Math.floor(j*wratio)]);
+                    row.push(image[Math.floor(i*hratio)][Math.floor(j*wratio)]);
                 }
                 nimage.push(row);
             }
